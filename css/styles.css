@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+
+#carouselExample{
+    width: 400px;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#img-carousel{
+    width: 400px;
+    height: 200px;
+    background-color: black;
+}
+
+#control-next{
+    color: black;
+    
+}
