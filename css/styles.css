@@ -1,22 +1,261 @@
-h1{
-    text-align: center;
+body{
+    width: 100%;
+    height: 100%;
 }
-
-#carouselExample{
-    width: 400px;
-    height: 200px;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-#img-carousel{
-    width: 400px;
-    height: 200px;
-    background-color: black;
-}
-
-#control-next{
-    color: black;
+#fondo {
     
 }
+
+/* seccion 1 cabecera */
+
+    .cabecera {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin:0px;
+    }
+
+    .cabeceraTitulos {
+        flex: 1;
+        padding: 20px;
+    }
+
+    #cabeceraTitulos-1{
+        text-align: left;
+    }
+    #logo-cabecera{
+        margin: 0px 0px 0px 0px;
+    }
+    #titulo1{
+        margin: 10px 0px 0px 90px;    
+    }
+
+    #cabeceraTitulos-2{
+        text-align: right;
+    }
+    @media(max-width: 460px) {
+        .cabecera {
+            display: block;
+            align-items: center;
+            justify-content: center;
+            align-items: center;
+            padding: 0px;
+            margin:0px;
+        }
+        .card-title{
+            font-size: 16px;
+            text-align: center;
+        }
+        .card-text{
+            font-size: 12px;
+            text-align: center;
+        }
+    }
+    @media(max-width: 665px) {
+        .card-title{
+            font-size: 20px;
+            text-align: center;
+        }
+        .card-text{
+            font-size: 16px;
+            text-align: center;
+        }
+    }   
+/* seccion 1 cabecera */
+
+
+    .flex-parent {
+        background-image: url("../assets/fondo3.jpg");
+        background-size:cover;
+        height: 430px;
+        margin: 0px 10px 10px 10px;
+        border-radius: 5px;     
+        display: flex;    
+    }
+    .flex-child {
+        flex: 1;
+        padding: 20px;            
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+        justify-items: center;
+    }
+    #secretaria{
+        height: 430px;
+        margin: -20px 0px 0px 30px;
+    }       
+    #titulo2{
+        text-align: left;
+        margin-top: 5%;
+        color: yellow;
+        font-family: "Helvetica", Sans-serif;
+        font-size: 50px;
+        font-weight: 600;
+        line-height: 1.1em;
+        letter-spacing: -.5px;
+        text-shadow: 0 0 6px rgba(0, 0, 0, .65);
+    }
+    #subtitulo2{
+        color: #fff;
+        text-align: left;
+        font-size: 22px;
+        font-weight: 400;
+        line-height: 1.2em;
+        letter-spacing: 0;
+        text-shadow: 0 0 6px rgba(0, 0, 0, .47);
+    }
+    #botonCotizar{
+        font-size: 22px;
+        font-weight: 600;
+        background-color: yellow;
+        border-radius: 5px;
+        padding: 20px;
+        width: 300px;
+        max-width: 300px;
+        min-width: 50px;
+        margin-top:2%;           
+    }
+
+    @media(max-width: 350px) {
+        .flex-parent {
+            background-image: url("../assets/fondo3.jpg");
+            background-size:cover;
+            height: 1000px;
+            margin: 0px 10px 10px 10px;
+            border-radius: 5px;     
+            display: block;    
+        }
+        #secretaria{
+            height: 430px;
+            margin: -20px 0px 0px 30px;
+        }
+        #titulo2{
+            text-align: center;                
+            color: yellow;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 1.1em;
+            letter-spacing: -.5px;
+            text-shadow: 0 0 6px rgba(0, 0, 0, .65);
+            margin-top: -30px;
+        }
+        #botonCotizar{
+            font-size: 22px;
+            font-weight: 600;
+            background-color: yellow;
+            border-radius: 5px;
+            padding: 20px;
+            width: 200px;
+            max-width: 300px;
+            min-width: 50px;
+            margin-top:2%;            
+            
+        }
+    }
+    @media(max-width: 460px) {
+        .flex-parent {
+            background-image: url("../assets/fondo3.jpg");
+            background-size:cover;
+            height: 1000px;
+            margin: 0px 10px 10px 10px;
+            border-radius: 5px;     
+            display: block;    
+        }
+        #secretaria{
+            height: 430px;
+            margin: -20px 0px 0px 30px;
+        }
+        #titulo2{
+            text-align: center;                
+            color: yellow;
+            font-family: "Helvetica", Sans-serif;
+            font-size: 50px;
+            font-weight: 600;
+            line-height: 1.1em;
+            letter-spacing: -.5px;
+            text-shadow: 0 0 6px rgba(0, 0, 0, .65);
+            margin-top: -30px;
+        }            
+    }
+   
+
+
+   
+
+/* seccion 2 boton */
+
+/* seccion 3 boton */
+    .seccion3{
+        margin:10px;
+        padding: 20px;
+        background-color: black;
+        border-radius: 5px;
+    }
+    #titulo3{
+        
+        text-align: center;
+        color: beige;
+    }
+    #subtitulo3{
+        margin-bottom: 20px;
+        text-align: center;
+        color: beige;
+    }
+/* seccion 3 boton */
+
+/* footer */
+    .footer{
+        background-image: url("../assets/banner2.jfif");
+        background-size:cover;
+        border-radius: 5px;
+        background-color: grey;
+        margin: 10px;
+    }
+    #titulo-footer{
+        margin: 5px;
+        padding: 5px;
+        text-align: center;
+        color: yellow;
+        font-weight: 600;
+    }
+
+    .card{
+        text-align: center;
+        
+    }
+    #visitenos{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #llamenos{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    #contactenos{
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+    span{
+        font-size: 3rem;
+    }
+    .logos{
+        background-color: black;
+        border-radius: 50%;
+        width: 5rem;
+        height: 5rem;
+        margin: auto;
+        
+    }
+    #logos{
+        color: white;
+        text-align: center;
+    }
+    #card-informativo{
+        
+        max-height: 400px;
+        min-height: 300px;
+    }
+/* footer */
+
+
+
