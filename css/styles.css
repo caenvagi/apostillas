@@ -139,8 +139,7 @@ body{
             margin: -20px 0px 0px 30px;
         }
         #titulo2{
-            text-align: center;                
-            color: yellow;
+            text-align: center;  
             font-family: "Helvetica", Sans-serif;
             font-size: 50px;
             font-weight: 600;
@@ -152,7 +151,6 @@ body{
         #botonCotizar{
             font-size: 22px;
             font-weight: 600;
-            background-color: yellow;
             border-radius: 5px;
             padding: 20px;
             width: 200px;
@@ -176,8 +174,7 @@ body{
             margin: -20px 0px 0px 30px;
         }
         #titulo2{
-            text-align: center;                
-            color: yellow;
+            text-align: center;
             font-family: "Helvetica", Sans-serif;
             font-size: 50px;
             font-weight: 600;
